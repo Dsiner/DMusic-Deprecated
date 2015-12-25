@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 添加到列表Dialog-sub -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_dialog_add_to_list_sub"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/scan_dir_icon" />
+
+        <TextView
+            android:id="@+id/tv_dialog_add_to_list_sub_list_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="默认列表" />
+
+        <CheckedTextView
+            android:id="@+id/ctv_dialog_add_to_list_sub_isselected"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/scan_dir_toggle_button_selector"
+            android:clickable="true"
+            android:gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>

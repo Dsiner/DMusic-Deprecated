@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+
+    <dbname value="demo" >
+    </dbname>
+
+    <version value="1" >
+    </version>
+
+    <list>
+
+        <mapping class="com.d.dmusic.adapter.models.MusicListModel" >
+        </mapping>
+
+        <mapping class="com.d.dmusic.database.models.LocalAllMusicListModel" >
+        </mapping>
+
+        <mapping class="com.d.dmusic.database.models.CollectionMusicListModel" >
+        </mapping>
+
+        <mapping class="com.d.dmusic.database.models.CustomMusicListModel" >
+        </mapping>
+
+        <mapping class="com.d.dmusic.database.models.MyMusicListModel0" >
+        </mapping>
+
+        <mapping class="com.d.dmusic.database.models.MyMusicListModel1" >
+        </mapping>
+
+        <mapping class="com.d.dmusic.database.models.MyMusicListModel2" >
+        </mapping>
+
+        <mapping class="com.d.dmusic.database.models.MyMusicListModel3" >
+        </mapping>
+
+        <mapping class="com.d.dmusic.database.models.MyMusicListModel4" >
+        </mapping>
+
+        <mapping class="com.d.dmusic.database.models.MyMusicListModel5" >
+        </mapping>
+
+        <mapping class="com.d.dmusic.database.models.MyMusicListModel6" >
+        </mapping>
+
+        <mapping class="com.d.dmusic.database.models.MyMusicListModel7" >
+        </mapping>
+
+        <mapping class="com.d.dmusic.database.models.MyMusicListModel8" >
+        </mapping>
+
+        <mapping class="com.d.dmusic.database.models.MyMusicListModel9" >
+        </mapping>
+
+        <mapping class="com.d.dmusic.database.models.MyMusicListModel10" >
+        </mapping>
+
+        <mapping class="com.d.dmusic.database.models.MyMusicListModel11" >
+        </mapping>
+
+        <mapping class="com.d.dmusic.database.models.MyMusicListModel12" >
+        </mapping>
+
+        <mapping class="com.d.dmusic.database.models.MyMusicListModel13" >
+        </mapping>
+
+        <mapping class="com.d.dmusic.database.models.MyMusicListModel14" >
+        </mapping>
+
+        <mapping class="com.d.dmusic.database.models.MyMusicListModel15" >
+        </mapping>
+
+        <mapping class="com.d.dmusic.database.models.MyMusicListModel16" >
+        </mapping>
+
+        <mapping class="com.d.dmusic.database.models.MyMusicListModel17" >
+        </mapping>
+
+        <mapping class="com.d.dmusic.database.models.MyMusicListModel18" >
+        </mapping>
+
+        <mapping class="com.d.dmusic.database.models.MyMusicListModel19" >
+        </mapping>
+    </list>
+
+</litepal>
