@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#FD8D22"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_title_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/title_back" />
+
+    <TextView
+        android:id="@+id/tv_title_title"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="夏洛特烦恼"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:id="@+id/iv_title_search"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="14dp"
+        android:src="@drawable/title_search"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_title_more"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/title_more_or_setting" />
+
+</LinearLayout>
